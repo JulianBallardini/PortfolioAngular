@@ -1,0 +1,10 @@
+.habilidades:hover{
+    background-color: rgb(167, 38, 38);
+    border-color: rgb(167, 38, 38);
+    color: #fff;
+    transition-duration: .5s;
+}
+
+li{
+    list-style: none;
+}

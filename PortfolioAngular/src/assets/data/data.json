@@ -1,0 +1,79 @@
+{
+    "firstName": "Luca Julián",
+    "lastName": "Ballardini",
+    "cName": "LJ. Ballardini",
+    "backgroundImage": "src/assets/imgs/fondo.jpg",
+    "ubication": "Santa Fe capital, Argentina",
+    "botonTexto":"Contactarme",
+    "aboutMeTitle": "Sobre mí",
+    "parrafo1":"Soy un chico apasionado por aprender y por la tecnología, no me cuesta entender temas nuevos. Actualmente estoy haciendo el ",
+    "habilidadesPW":{
+        "title":"En programación web:",
+        "html":{
+            "image":"../../../assets/imgs/logo-html5.png",
+            "text": "HTML5"
+        },
+        "css":{
+            "image":"../../../assets/imgs/logo-css.png",
+            "text": "CSS"
+        },
+        "js":{
+            "image":"../../../assets/imgs/logo-js.png",
+            "text": "JavaScript"
+        },
+        "bootstrap":{
+            "image":"../../../assets/imgs/logo-bootstrap.png",
+            "text": "Bootstrap"
+        },
+        "ts":{
+            "image":"../../../assets/imgs/logo-ts.png",
+            "text": "TypeScript"
+        },
+        "ag":{
+            "image":"../../../assets/imgs/logo-angular.png",
+            "text": "Angular"
+        }
+    },
+    "habilidadesRedesSociales":{
+        "title":"En redes sociales:",
+        "instagram":{
+            "image": "../../../assets/imgs/logo-instagram.png",
+            "text": "Instagram"
+        },
+        "youTube":{
+            "image": "../../../assets/imgs/logo-youtube.png",
+            "text": "You Tube"
+        },
+        "whatsapp":{
+            "image":"../../../assets/imgs/logo-whatsapp.png",
+            "text": "Whatsapp Empresarial"
+        }
+    },
+    "habilidadesTransmisiones":{
+        "title":"En transmisiones en vivo:",
+        "obs":{
+            "image":"../../../assets/imgs/logo-obs.png",
+            "text": "OBS"
+        },
+        "youTubeLives":{
+            "image": "../../../assets/imgs/logo-youtube.png",
+            "text": "You Tube Lives"
+        },
+        "twitch":{
+            "image":"../../../assets/imgs/logo-twitch.png",
+            "text": "Twitch"
+        }
+    },
+    "contact":{
+        "title": "Contactarse:",
+        "placeholder":{
+            "correo":"Ingrese su email",
+            "nombre": "Ingrese su nombre y/o apellido",
+            "asunto": "Ingrese el asunto por el cual se contacta"
+        }
+    },
+    "projectTitle":"Mis Proyectos:"
+    
+
+
+}

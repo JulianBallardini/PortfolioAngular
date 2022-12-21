@@ -1,0 +1,8 @@
+.btn-submit:hover{
+    background-color: #fff;
+    color: #dc3545;
+    border-width: 2px;
+    border-color: #dc3545;
+    margin-bottom: 0px;
+    transition-duration: .2s;
+}
