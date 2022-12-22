@@ -1,18 +1,18 @@
 <div class="row">
 
-    <div class="col-3"></div>
+    <div [ngClass]="{'col-3': flag, 'col-2': !flag}"></div>
 
-    <div class="col text-white text-center">
+    <div [ngClass]="{'col': flag, 'col-6': !flag}"  class="text-white text-center">
 
-        <div class="py-3"></div>
+        <div [ngClass]="{'py-3': flag, 'py-1': !flag}"></div>
 
         <h1> {{miPortfolio.projectTitle}} </h1>
 
-        <div class="py-3"></div>
+        <div *ngIf="flag" class="py-3"></div>
 
     </div>
-
-    <div class="col">
+    
+    <div *ngIf="flag"  class="col">
 
         <div class="py-4"></div>
 
@@ -20,7 +20,23 @@
             <li> <a href="" class="text-white text-decoration-none">Leita</a> </li>
         </ul>
     </div>
+   
 
     <div class="col-2"></div>
+</div>
+
+<div *ngIf="!flag" class="row">
+    <div class="col text-center">
+        <div class="py-2"></div>
+
+        <ul class="lead " style="list-style: none;">
+            <li> <a href="" class="text-white text-decoration-none">Leita</a> </li>
+        </ul>
+
+    </div>
+
+    
+
+    <div class="py-2"></div>
 
 </div>

@@ -1,16 +1,16 @@
 <div class="container-fluid pt-5" >
 
-    <div class="row yoo" class="mt-0"  id="yo">
+    <div class="row" class="mt-0"  id="yo">
         
 
-      <div class="col-3 offset-md-1" style="display: inline-block;">
+      <div *ngIf="flag" class="col-3 offset-md-1" style="display: inline-block;">
         <img src="../../../assets/imgs/aboutMe.jpg" width="400px" class="rounded img-fluid" alt="" style="vertical-align: super;" >
 
       </div>
       
-      <div class="col-1 separador" style="display: inline-block;"></div>
+      <div class="col-1" style="display: inline-block;"></div>
 
-      <div class="col-5" style="display: inline-block;">
+      <div [ngClass]="{'col-6': flag, 'col-10' : !flag}" style="display: inline-block;">
 
         <div class="text-white text-center " style="display: inline-block;line-height: 2rem;">
     
@@ -28,10 +28,15 @@
 
       </div>
 
+      <div *ngIf="!flag" class="col-1" style="display: inline-block;"></div>
+
       
 
       <div class="py-3 espaciador"></div>
 
     </div>
+
+    <img *ngIf="!flag" src="../../../assets/imgs/aboutMe.jpg"  width="520px" class="rounded img-fluid img-false" alt="" style="align-self: center;" >
+    <div *ngIf="!flag" class="py-3 espaciador"></div>
 
   </div>

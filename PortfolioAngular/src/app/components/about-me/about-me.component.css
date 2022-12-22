@@ -1,0 +1,7 @@
+img{
+    display: inline-block;
+}
+.img-false{
+    display: block;
+    margin: auto;
+}

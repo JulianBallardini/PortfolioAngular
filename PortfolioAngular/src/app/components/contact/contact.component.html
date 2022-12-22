@@ -2,7 +2,7 @@
 
     <div class="py-3"></div>
 
-    <div class="col-3"></div>
+    <div [ngClass]="{'col-3': flag, 'col-1': !flag}"></div>
 
     <div class="col text-center">
 
@@ -23,7 +23,7 @@
 
     </div>
 
-    <div class="col-3"></div>
+    <div [ngClass]="{'col-3': flag, 'col-1': !flag}"></div>
 
     <div class="py-2"></div>
 
